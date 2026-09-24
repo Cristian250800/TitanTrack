@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">TitanTrack</string>
+    <string name="nombre_app">TitanTrack</string>
+
+    <!-- Textos generales y etiquetas de campos -->
+    <string name="pista_correo">Correo electrónico</string>
+    <string name="pista_contrasena">Contraseña</string>
+
+    <!-- Pantalla 1: Login -->
+    <string name="titulo_login">Iniciar Sesión</string>
+    <string name="boton_login">Entrar</string>
+    <string name="enlace_olvidaste_contrasena">¿Olvidaste tu contraseña?</string>
+    <string name="enlace_registro">¿No tienes cuenta? Regístrate</string>
+
+    <!-- Pantalla 2: Registro -->
+    <string name="titulo_registro">Crear Cuenta</string>
+    <string name="casilla_nombre">Nombre completo</string>
+    <string name="casilla_confirmar_contrasena">Confirmar contraseña</string>
+    <string name="boton_registro">Registrarse</string>
+    <string name="enlace_login">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- Pantalla 3: Recuperar Contraseña -->
+    <string name="titulo_recuperar">Recuperar Contraseña</string>
+    <string name="instrucciones_recuperar">Introduce tu correo de registro.</string>
+    <string name="boton_recuperar">Enviar enlace</string>
 </resources>

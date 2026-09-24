@@ -1,9 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.TitanTrack" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
 
-    <style name="Theme.TitanTrack" parent="Base.Theme.TitanTrack" />
+
+    <!-- Tema Base de TitanTrack Fitness Solutions -->
+    <style name="Theme.TitanTrack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color Primario de la marca (Verde Corporativo) -->
+        <item name="colorPrimary">@color/verde_principal</item>
+        <item name="colorPrimaryVariant">@color/verde_acento</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+
+        <!-- Color Secundario -->
+        <item name="colorSecondary">@color/verde_acento</item>
+        <item name="colorSecondaryVariant">@color/verde_principal</item>
+        <item name="colorOnSecondary">@color/negro</item>
+
+        <!-- Fondo de  pantalla -->
+        <item name="android:windowBackground">@color/gris_fondo</item>
+
+        <!-- Color de la Barra de Estado-->
+        <item name="android:statusBarColor">@color/verde_principal</item>
+    </style>
 </resources>

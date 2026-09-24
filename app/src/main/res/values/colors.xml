@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Colores base -->
+    <color name="negro">#FF000000</color>
+    <color name="blanco">#FFFFFFFF</color>
+
+    <!-- Paleta de la aplicación -->
+    <color name="verde_principal">#2E7D32</color>      <!-- Verde  para botones y barras -->
+    <color name="verde_acento">#4CAF50</color>       <!-- Verde  para destacados o estados activos -->
+    <color name="verde_claro">#E8F5E9</color>        <!-- Verde  claro para fondos de campos o tarjetas -->
+    <color name="gris_fondo">#F5F5F5</color>    <!-- Gris claro para el fondo general de las pantallas -->
+    <color name="gris_oscuro">#333333</color>          <!-- Gris oscuro para texto principal -->
+    <color name="gris_medio">#757575</color>        <!-- Gris medio para textos secundarios o bordes -->
 </resources>

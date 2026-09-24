@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/titulo_recuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:text="@string/titulo_recuperar"
+        android:textColor="@color/verde_principal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto_instrucciones"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/instrucciones_recuperar"
+        android:textAlignment="center"
+        android:textColor="@color/gris_medio"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulo_recuperar" />
+
+    <EditText
+        android:id="@+id/correo_recuperar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/pista_correo"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto_instrucciones" />
+
+    <Button
+        android:id="@+id/boton_recuperar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/verde_principal"
+        android:text="@string/boton_recuperar"
+        android:textColor="@color/blanco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/correo_recuperar" />
+
+    <TextView
+    android:id="@+id/ir_a_login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/enlace_login"
+    android:textColor="@color/verde_principal"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:padding="12dp"
+    android:layout_marginBottom="24dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </android.widget.ScrollView>
