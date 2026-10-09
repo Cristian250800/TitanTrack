@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/verde_claro"
+    android:outlineAmbientShadowColor="#4CAF50"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título de la rutina -->
+        <TextView
+            android:id="@+id/tvTituloRutina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Rutina"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/gris_oscuro" />
+
+        <!-- Descripción o detalles de la rutina -->
+        <TextView
+            android:id="@+id/tvDetalleRutina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duración: 45 min • Dificultad: Media"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/gris_medio" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
