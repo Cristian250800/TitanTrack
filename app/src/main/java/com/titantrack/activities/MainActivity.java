@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         // Vinculamos la barra de navegación del XML
         bottomNav = findViewById(R.id.bottom_navigation);
 
-        // 1. Cargamos por defecto el primer fragmento (en nuestro caso Rutinas) al abrir la pantalla
+        // 1. Cargamos por defecto el primer fragmento
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new RutinasFragment())

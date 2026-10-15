@@ -14,11 +14,9 @@
         <activity
             android:name=".activities.RecoverActivity"
             android:exported="false" />
+
         <activity
             android:name=".activities.LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,8 +25,13 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".activities.MainActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".activities.RegisterActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>

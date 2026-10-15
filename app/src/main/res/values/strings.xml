@@ -19,7 +19,7 @@
     <string name="enlace_login">¿Ya tienes cuenta? Inicia sesión</string>
 
     <!-- Pantalla 3: Recuperar Contraseña -->
-    <string name="titulo_recuperar">Recuperar Contraseña</string>
+    <string name="titulo_recuperar">Recupera tu contraseña</string>
     <string name="instrucciones_recuperar">Introduce tu correo de registro.</string>
     <string name="boton_recuperar">Enviar enlace</string>
 </resources>

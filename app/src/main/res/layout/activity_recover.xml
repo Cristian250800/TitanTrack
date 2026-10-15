@@ -46,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:hint="@string/pista_correo"
+        android:textColorHint="@color/gris_medio"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
